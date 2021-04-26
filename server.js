@@ -20,9 +20,18 @@ app.get("/,", (req, res) => {
 app.get("/notes", (req, res) => {
   res.sendFile(path.join(__dirname, "./public/notes.html"));
 });
-//rotes for api
+//routes for api
 const readFilePromise = util.promisify(fs.readFile);
 const writeFilePromise = util.promisify(fs.writeFile);
+
+app.get("/api/notes", (req, res) => {
+  readFilePromise("./db/db.json", "utf8").then((data) => {
+    console.log(data);
+    const notes = JSON.parse(data);
+    console.log(notes);
+    res.json(notes);
+  });
+});
 
 //LISTENER
 //code below starts our server
