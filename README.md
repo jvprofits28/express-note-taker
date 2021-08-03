@@ -2,30 +2,17 @@
 
 ## Description
 
-This application was created for users to be able to take notes and write their thought and help them be more orgonized thur out their daily activities.
+This application was created for users to be able to take notes and help them be more orgonized overtime.
 
 ## Table of content
 
 - [Installation](#installation)
-- [Usage](#usage)
+- [Questions](#questions)
 - [License](#license)
-- [Contribution](#contribution)
-
-## Installation
-
-none
-
-## Usage
-
-this app allows you to take notes an save them for later reference
 
 ## License
 
 MIT
-
-## Contribution
-
-contribution are not allowed
 
 ## Questions
 
