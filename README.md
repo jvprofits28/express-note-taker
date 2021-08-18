@@ -9,6 +9,7 @@ This application was created for users to be able to take notes and help them be
 - [Installation](#installation)
 - [Questions](#questions)
 - [License](#license)
+- [Link](#link)
 
 ## Links
 
